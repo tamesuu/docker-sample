@@ -7,5 +7,17 @@ $ docker-compose --version
 docker-compose version 1.27.4, build 40524192
 ```
 
+### 利用
+
+
+work にソースコードを足してく
+
+```
+$ cd {このディレクトリ}
+$ mkdir work
+$ docker-compose up -d
+```
+
+
 ### 参考
 - [DockerでGoの開発環境を構築する - Qiita](https://qiita.com/uji_/items/8c9eda89526abe0ba900)
