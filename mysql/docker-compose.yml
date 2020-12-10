@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db-master:
+    build:
+      context: .
+      args:
+        my_cnf: master.cnf
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+  db-slave:
+    build:
+      context: .
+      args:
+        my_cnf: slave.cnf
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
