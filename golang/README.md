@@ -12,9 +12,12 @@ docker-compose version 1.27.4, build 40524192
 
 work にソースコードを足してく
 
+初回
+
 ```
 $ cd {このディレクトリ}
 $ mkdir work
+$ docker-compose build
 $ docker-compose up -d
 ```
 
