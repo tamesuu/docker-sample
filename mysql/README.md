@@ -1,5 +1,7 @@
 # まだ途中
 
+MySQL 5.6
+
 ```
 $ docker-compose build
 $ docker-compose up -d
