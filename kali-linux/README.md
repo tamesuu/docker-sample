@@ -1,8 +1,8 @@
 ### インストール
 
 ```
-$ docker pull kalilinux/kali-linux-docker
-$ docker run -t -i kalilinux/kali-linux-docker /bin/bash
+$ docker pull kalilinux/kali-rolling
+$ docker run -t -i kalilinux/kali-rolling
 
 コンテナ
 # apt-get update && apt-get install metasploit-framework
